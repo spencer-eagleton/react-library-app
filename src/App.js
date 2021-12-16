@@ -10,7 +10,7 @@ function App() {
       <BrowserRouter>
         <NavLink to="/books">Books</NavLink>
         <Switch>
-          <Route path="/books" component={BookList} />
+          <Route exact path="/books" component={BookList} />
         </Switch>
       </BrowserRouter>
     </main>
